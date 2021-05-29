@@ -1,0 +1,41 @@
+Step 1: Install Docker IN RHEL 
+	yum install docker -y 
+
+Step 2: Start Docker 
+	systemctl start docker
+
+Step 3: Enable Docker Servies  
+	systemctl enable  docker 
+
+Step 4: Pull Centos Images From Docker 
+	docker pull centos:latest 
+
+Step 5: Show Pulled Images 
+	docker images 
+
+Step 6: Run the Container 
+	docker run -it --name ML centos:latest
+
+Inside the Container 
+
+Step 7: Install Python3 
+	yum install python3 -y
+
+
+Step 8: Install Library 
+	pip3 install pandas numpy scikit-learn 
+
+Step 9: Install Git for downloading the Machine learning from Github 
+	yum install git -y 
+
+Step10: Link Of Code
+	git clone https://github.com/Ingole712521/Machine-Learning-Code-.git
+
+Step11: Run the Code
+	python3 salary.py 
+
+
+
+
+ 
+
